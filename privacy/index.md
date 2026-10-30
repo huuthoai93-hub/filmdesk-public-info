@@ -4,7 +4,7 @@ title: FilmDesk Privacy Policy
 
 # FilmDesk Privacy Policy
 
-_Last updated: October 26, 2026_
+_Last updated: October 30, 2026_
 
 FilmDesk ("the app") is a film photography logbook for Android, made by an individual developer. This policy explains what the app does with your information. In short: **your data stays on your device and in your own Google Drive. The developer does not run any server and does not collect your data.**
 
@@ -34,9 +34,10 @@ The app does not scan, analyse, upload or share photos you have not added to a r
 
 If you turn on Drive backup, the app signs in with your Google account and uploads the photos you added to your logbook to **your own Google Drive**, in a folder named "FilmDesk".
 
+- If you turn on logbook backup, the app also saves a copy of your logbook database (`FilmDesk-Logbook.db`) in the same folder. It contains your logbook entries: rolls, film stock, notes, camera, lens and lab names, shot dates and captions. The app updates this one file on each backup and can use it to restore your logbook when you reinstall the app or move to a new device.
 - The app requests only the `drive.file` scope. It can see and manage only the files it created itself. It cannot read any other files in your Drive.
-- The app only adds files to Drive. It never deletes anything from your Drive. Removing a photo or a roll in the app does not remove it from Drive.
-- The app can download its own backup files from your Drive to restore missing photo copies.
+- The app never deletes anything from your Drive. It only adds photo files and updates its own logbook backup file. Removing a photo or a roll in the app does not remove it from Drive.
+- The app can download its own backup files from your Drive to restore missing photo copies or your logbook.
 - Access tokens are not stored by the app. The developer never receives your files, your Google account password or your tokens.
 - You can disconnect Drive in Settings, and remove the app's access at any time at https://myaccount.google.com/permissions.
 
